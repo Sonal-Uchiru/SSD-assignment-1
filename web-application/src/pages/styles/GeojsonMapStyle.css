@@ -1,0 +1,153 @@
+.map-container {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+
+.mapboxgl-ctrl-group {
+    margin-top: -700px;
+    display: flex;
+    justify-content: center;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_trash {
+    display: block;
+    background-image: url('../../../public/images/trash.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 4px;
+    border: 2px solid #03c988;
+    cursor: pointer;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_trash:hover {
+    opacity: 1;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_point {
+    display: block;
+    background-image: url('../../../public/images/placeholder.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 4px;
+    border: 2px solid #03c988;
+    cursor: pointer;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_point:hover {
+    opacity: 1;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_line {
+    display: block;
+    background-image: url('../../../public/images/line.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 4px;
+    border: 2px solid #03c988;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_line:hover {
+    opacity: 1;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_combine {
+    display: block;
+    background-image: url('../../../public/images/collapse.png');
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 4px;
+    border: 2px solid #03c988;
+    cursor: pointer;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_line:hover {
+    opacity: 1;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_uncombine {
+    display: block;
+    background-image: url('../../../public/images/right-and-left-arrows-with-vertical-line-separation.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    border-radius: 4px;
+    border: 2px solid #03c988;
+    cursor: pointer;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_line:hover {
+    opacity: 1;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_polygon {
+    display: block;
+    background-image: url('../../../public/images/square.png');
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: 2px solid #03c988;
+    border-radius: 4px;
+}
+
+.mapboxgl-ctrl-group .mapbox-gl-draw_polygon:hover {
+    opacity: 1;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mapboxgl-ctrl-group {
+        margin-top: -980px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+    .mapboxgl-ctrl-group {
+        margin-top: -1130px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 900px) {
+    .mapboxgl-ctrl-group {
+        margin-top: -710px;
+    }
+}

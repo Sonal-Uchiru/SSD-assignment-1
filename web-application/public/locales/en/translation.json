@@ -1,0 +1,319 @@
+{
+    "title": "Welcome back",
+    "description": "Good morning",
+    "test": {
+        "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+        "part2": "Switch language between english and german using buttons above."
+    },
+    "first-name-label": "First Name",
+    "last-name-label": "Last Name",
+    "email-label": "Email",
+    "submit": "Submit",
+    "registration-required-error-msg": "First name cannot be empty",
+
+    "successModal": {
+        "title": "Success!",
+        "subText": "Content Has Been Saved Successfully.",
+        "registrationSuccessText": "You have been Successfully Registered!",
+        "changePasswordSuccessText": "Your Password has been Successfully Changed!",
+        "accountDeleteSuccessText": "Your Account has been Successfully Deleted!",
+        "profileUpdateSuccessText": "Your Profile has been Successfully Updated!",
+        "addResearchPaperSuccessText": "Research Paper has been added Successfully!",
+        "editResearchCategorySuccessText": "Research Category has been Successfully Updated!",
+        "notificationSendSuccessText": "Timeslots Successfully Distributed through SMS!",
+        "downloadSuccessText": "File has been downloaded Successfully!"
+    },
+
+    "errorModal": {
+        "title": "Error!",
+        "subText": "Something went wrong. Let’s try again."
+    },
+
+    "deleteConfirmationModal": {
+        "title": "Caution!",
+        "subText": "Do You Really Want to Delete These Records? This Process Cannot Be Undone.",
+        "deleteAccountText": "Do You Really Want to Delete Your Account? This Process Cannot Be Undone."
+    },
+
+    "saveConfirmationModal": {
+        "title": "Confirm",
+        "subText": "Do You Want To Save The Changes?"
+    },
+
+    "unsavedLeaveModal": {
+        "title": "Unsaved!",
+        "subText": "All The Changes Will Be Lost, If You Leave Without Saving."
+    },
+
+    "officerAddNewFieldModal": {
+        "title": "Add New Paddy Field"
+    },
+
+    "officerAddNewResearchPaperModal": {
+        "title": "Add New Research Paper",
+        "subText": "Select Research Paper",
+        "uploadButtonText": "Upload"
+    },
+
+    "officerEditResearchCategoryModal": {
+        "title": "Edit Research Category"
+    },
+
+    "deleteAccountConfirmModal": {
+        "deleteYour": "Delete Your",
+        "account": "Account",
+        "sorry": "We’re Sorry To See You Go.",
+        "subText1": "Account deletion is final.",
+        "subText2": "There will be no way to",
+        "subText3": "restore your account."
+    },
+
+    "changePasswordModal": {
+        "change": "Change",
+        "password": "Password",
+        "newPasswordContains": "New Password Must Contain:",
+        "rule1": "• At least 6 characters",
+        "rule2": "• At least 1 upper-case letter (A-Z)",
+        "rule3": "• At least 1 lower-case letter (a-z)",
+        "rule4": "• At least 1 number (0-9)",
+        "rule5": "• At least 1 special character (!@#$%^&*)"
+    },
+
+    "notFoundPage": {
+        "page": "Page",
+        "notFound": "Not Found",
+        "subText1": "We’re Sorry, The Page You",
+        "subText2": "Requested Could Not Be",
+        "subText3": "Found. Please Go Back To",
+        "subText4": "The Home Page!"
+    },
+
+    "priorityDistibutionSchedule": {
+        "openingDates": "Select Opening Dates",
+        "openingHours": "Select Opening Hours",
+        "individualTimeSlot": "Select Individual Time Slot",
+        "houurs": "Hours",
+        "timeSlot": "Time Slot",
+        "agraianDivision": "Agrarian Division",
+        "selectAgrarianDivision": "Select Agrarian Division"
+    },
+
+    "forgotPasswordPage": {
+        "forgotPassword": "Forgot Password?",
+        "subText1": "we will not share your email with anyone else",
+        "subText2": "Check You Inbox for 6 Letters Code tooby****@gmail.com"
+    },
+
+    "loginAndRegisterPage": {
+        "title": "Welcome To Agrivo!",
+        "login": "Login",
+        "register": "Register",
+        "invalidCredentials": "Invalid Credentials!",
+        "forgotPassword": "Forgot Password?",
+        "or": "OR",
+        "informationText": "By clicking on create account button you agree to the terms and conditions.",
+        "emailRequiredErrorText": "Email is Required",
+        "invalidEmailErrorText": "Invalid Email",
+        "passwordRequiredErrorText": "Password is Required",
+        "firstNameRequiredErrorText": "First Name is Required",
+        "lastNameRequiredErrorText": "Last Name is Required",
+        "confirmPasswordRequiredErrorText": "Confirm Password is Required",
+        "weakPasswordErrorText": "Password Strength is Low !",
+        "passwordMismatchErrorText": "Passwords Mismatch !"
+    },
+
+    "appBar": {
+        "furrowIrrigation": "Furrow Irrigation",
+        "researchDisseminating": "Research Disseminating",
+        "yieldPrediction": "Yield Prediction",
+        "priorityDistibution": "Priority Distribution"
+    },
+
+    "drawer": {
+        "profile": "Profile",
+        "notifications": "Notifications Settings",
+        "notificationSettings": "We may still send you important notifications about your account outside of your notification settings.",
+        "pushNotifications": "Push Notifications",
+        "emailService": "Email Service"
+    },
+
+    "selectField": {
+        "farmer": "Farmer",
+        "selectFarmer": "Select a Farmer",
+        "paddy": "Paddy",
+        "paddyType": "Select a Paddy Type",
+        "slope": "Level of Slope",
+        "selectSlope": "Select the Level of Slope",
+        "waterIn": "Water In",
+        "selectWaterIn": "Water In Side",
+        "waterOut": "Water Out",
+        "selectWaterOut": "Water Out Side",
+        "category": "Category",
+        "selectCategory": "Select a Category",
+        "subCategory": "Sub Category",
+        "selectSubCategory": "Select a Sub Category",
+        "location": "Location",
+        "selectLocation": "Select the Location",
+        "locationErrorText": "Location is Required",
+        "paddyTypeErrorText": "Paddy Type is Required",
+        "slopeErrorText": "Slope is Required",
+        "waterInErrorText": "Water In is Required",
+        "waterOutErrorText": "Water Out is Required",
+        "farmerErrorText": "Farmer is Required",
+        "categoryRequiredErrorText": "Research Category is required",
+        "subCategoryRequiredError": "Research Sub Category is required",
+        "hours": "Hours",
+        "selectHours": "Select Opening Hours",
+        "timeSlot": "Time Slot",
+        "selectTimeSlot": "Select Individual Time Slot",
+        "agraianDivision": "Agrarian Division",
+        "selectAgrarianDivision": "Select Agrarian Division",
+        "hoursErrorText": "Opening Hours is Required",
+        "timeSlotErrorText": "Individual Time Slot is Required",
+        "agrarianDivisionErrorText": "Agrarian Division is Required",
+        "topicRequiredErrorText": "Research Paper Topic is Required",
+        "calenderDateRequiredErrorText": "Opening Dates is Required"
+    },
+
+    "inputField": {
+        "fieldName": "Name",
+        "enterName": "Enter Paddy Field Name",
+        "errorText": "Paddy Field Name is Required",
+        "codeRequiredErrorText": "Code is Required",
+        "mobileNumberErrorText": "Mobile number must be a 10-digit number",
+        "paddyFieldNameMinCharacterCountError": "Paddy Field Name must contain at least 3 characters"
+    },
+
+    "passwordInputField": {
+        "currentPassword": "Current Password",
+        "enterCurrentPassword": "Enter Current Password",
+        "newPassword": "New Password",
+        "enterNewPassword": "Enter New Password",
+        "confirmPassword": "Confirm Password",
+        "enterConfirmPassword": "Re-Enter New Password",
+        "password": "Password",
+        "enterPassword": "Enter Password",
+        "currentPasswordRequiredErrorText": "Current Password is Required",
+        "newPasswordRequiredErrorText": "New Password is Required",
+        "confirmPasswordRequiredErrorText": "Confirm Password is Required"
+    },
+
+    "containedButtonTitles": {
+        "upload": "Upload",
+        "deleteAccount": "Delete My Account",
+        "cancel": "Cancel",
+        "stay": "Stay",
+        "leave": "Leave",
+        "save": "Save",
+        "tryAgain": "Try again",
+        "yesDelete": "Yes, Delete It!",
+        "continue": "Continue",
+        "next": "Next",
+        "addNewPaper": "Add New Research Paper",
+        "addNewPaddy": "Add New Paddy Field",
+        "distributeQR": "Distribute the Timeslots",
+        "goHome": "Go Home",
+        "cteateSheet": "Create Time Schedule",
+        "sendCode": "Send Code",
+        "back": "Back",
+        "verifyCode": "Verify Code",
+        "login": "Login",
+        "createAccount": "Create Account",
+        "enableDrawing": "Enable Drawing",
+        "disableDrawing": "Disable Drawing",
+        "deleteShape": "Delete Shape File",
+        "editProfile": "Edit Profile",
+        "changePassword": "Change Password",
+        "deleteAccount2": "Delete Account"
+    },
+
+    "titles": {
+        "priorityDistributionSchedule": "Priority Distribution Schedule",
+        "researchFindings": "Research Findings",
+        "paddyFieldsDetails": "Paddy Fields Details",
+        "finalzedTimeSchedule": "Finalized Time Schedule",
+        "paddyDrawing": "Paddy Field Irrigation Drawing Tool"
+    },
+
+    "DataTable": {
+        "researchNameColumn": "Research Name",
+        "categoryColumn": "Category",
+        "subCategoryColumn": "Sub Category",
+        "createdDateColumn": "Created Date",
+        "actionColumn": "Action",
+        "researchList": "Research Findings List",
+        "paddyFieldList": "Paddy Fields List",
+        "paddyFieldNameColumn": "Paddy Field Name",
+        "noOfIrrigationsColumn": "No of Irrigations",
+        "spaceBetweenIrrigationsColumn": "Space Between Irrigations(m)",
+        "acresColumn": "Acres",
+        "locationCoulmn": "Location",
+        "slopeLevelColumn": "Slope level",
+        "farmerNameColumn": "Farmer's Name",
+        "areaInAcresColumn": "Area(In Acres)",
+        "riceVariantColumn": "Rice Variant",
+        "cultivationStartDateColumn": "Start Date of Cultivation",
+        "priorityColumn": "Priority",
+        "allocatedDateColumn": "Allocated Date",
+        "allocatedTimeSlotColumn": "Allocated Time Slot",
+        "finalizedTimeList": "Finalized Time List",
+        "priorityDistributionSchedule": "Priority Distribution Schedule",
+        "addressColumn": "Address",
+        "nicColumn": "NIC",
+        "agraianDivisionColumn": "Agrarian Division",
+        "riceTypeColumn": "Rice Type",
+        "mobileColumn": "Mobile Number",
+        "summaryColumn": "Summary",
+        "totalFarmersCount": "Total Farmers : ",
+        "allocatedFarmersCount": "Timeslot Allocated Farmers : ",
+        "notAlloctedFarmersCount": "Not Allocated Farmers : ",
+        "downloadNotAllocated": "Not Allocated Farmers"
+    },
+    "footer": {
+        "title": "Agrivo",
+        "paragraph": "© 2023 Copyright: Agrivo Paddy Solutions"
+    },
+    "viewPaddyFieldPage": {
+        "paddyFieldNameTitle": "Paddy Field Name: ",
+        "locationTitle": "Location: ",
+        "paddyTypeTitle": "Paddy Type: ",
+        "slopeLevelTitle": "Slope Level: ",
+        "waterInLocationTitle": "Water In Location: ",
+        "waterOutLocationTitle": "Water Out Location: ",
+        "areaTitle": "Area: ",
+        "numberOfIrrigationsTitle": "Number of Irrigations (approx): ",
+        "spaceBetweenIrrigationsTitle": "Space between Irrigations (approx): ",
+        "priorityDistributionSchedule": "Priority Distribution Schedule",
+        "addressColumn": "Address",
+        "nicColumn": "NIC",
+        "agraianDivisionColumn": "Agrarian Division",
+        "riceTypeColumn": "Rice Type"
+    },
+    "snackBarMessage": {
+        "researchPaperSubmissionInProgress": "Research paper summarization is in progress!",
+        "researchPaperSubmissionSuccess": "The research paper was published successfully!",
+        "researchPaperSubmissionError": "Something went wrong! (File format is not valid!)"
+    },
+    "priorityDistributionSteps": {
+        "step1": "STEP 01 : ",
+        "step1Title": "Upload the farmer details",
+        "step1Description": "Start by uploading the Excel file that contains the information of registered farmers eligible for the fertilizer subsidy. To do this, simply click on the 'Upload' button provided on the platform. Once the file has been successfully uploaded, the system will generate the priority schedule based on the submitted data. You will then be redirected to a table displaying the  priority schedule for your reference. ",
+        "step2": "STEP 02 : ",
+        "step2Title": "Allocate dates and timeslots",
+        "step2Description": "Choose the dates which the Agrarian office will be opened to distribute the fertilizer subsidy from the calender, Choose the hours which the Agrarian office will be opened to distribute the fertilizer subsidy, Choose the time limit that will be given to a individual farmer to collect their subsidy. Then select the Agrarian Division. After selecting all of these click on the 'Create Time Schedule' button to create a time schedule. After clicking on this the system will create the timeschdule and you will be redirected to the created time scedule",
+        "step3": "STEP 03 : ",
+        "step3Title": "Distribute timeslots",
+        "step3Description": "You will be able to view the farmers who were allocated a timeslot according the inputs you provided in Step 02.  Click on the 'Distribute Timesolts' button to distribute the allocated timeslots to the farmers through SMS "
+    },
+    "drawPaddyField": {
+        "invalidShape": "Invalid Shape detected, Please draw a valid shape.",
+        "multipleShapeInvalid": "Invalid Shape detected, Can select only one paddy field.",
+        "helpToolTip": {
+            "point1": "Use the Polygon tool in the map to draw your selected paddy field.",
+            "point2": "The paddy field must be a valid shape (polygon) and have 4 or 5 points.",
+            "point3": "Use the Delete tool if you want to delete a selected paddy field.",
+            "point4": "By clicking the paddy field, you can edit the selected field.",
+            "point5": "You can only select one paddy field at a time."
+        }
+    }
+}

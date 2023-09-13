@@ -1,0 +1,319 @@
+{
+    "title": "ආපසු සාදරයෙන් පිළිගනිමු",
+    "description": "සුභ උදෑසනක්",
+    "test": {
+        "part1": "ආරම්භ කිරීමට, <1>src/App.js</1> සංස්කරණය කර නැවත පූරණය කිරීමට සුරකින්න.",
+        "part2": "ඉහත බොත්තම් භාවිතයෙන් ඉංග්‍රීසි සහ ජර්මානු අතර භාෂාව මාරු කරන්න."
+    },
+    "first-name-label": "මුල් නම",
+    "last-name-label": "අවසන් නම",
+    "email-label": "විද්යුත් තැපෑල",
+    "submit": "ඉදිරිපත් කරන්න",
+    "registration-required-error-msg": "මුල් නම හිස් විය නොහැක",
+
+    "successModal": {
+        "title": "සාර්ථකත්වය!",
+        "subText": "අන්තර්ගතය සාර්ථකව සුරැකී ඇත.",
+        "registrationSuccessText": "ඔබ සාර්ථකව ලියාපදිංචි වී ඇත!",
+        "changePasswordSuccessText": "ඔබගේ මුර - පදය සාර්ථක ලෙස වෙනස් කර ඇත!",
+        "accountDeleteSuccessText": "ඔබගේ ගිණුම සාර්ථකව මකා ඇත!",
+        "profileUpdateSuccessText": "ඔබගේ ගිණුම සාර්ථකව යාවත්කාලීන කර ඇත!",
+        "addResearchPaperSuccessText": "පර්යේෂණ පත්‍රිකාව සාර්ථකව එකතු කර ඇත!",
+        "editResearchCategorySuccessText": "පර්යේෂණ කාණ්ඩය සාර්ථකව යාවත්කාලීන කර ඇත!",
+        "notificationSendSuccessText": "කෙටි පණිවුඩ හරහා කාලසටහන් සාර්ථකව බෙදා හැර ඇත!",
+        "downloadSuccessText": "ගොනුව සාර්ථකව බාගත කර ඇත!"
+    },
+
+    "errorModal": {
+        "title": "දෝෂයක්!",
+        "subText": "මොකක්හරි වැරැද්දක් වෙලා. නැවත උත්සහ කරමු."
+    },
+
+    "deleteConfirmationModal": {
+        "title": "අවවාදයයි!",
+        "subText": "ඔබට ඇත්තටම එහි වාර්තා මකා දැමීමට අවශ්‍යද? මෙම ක්රියාවලිය ආපසු හැරවිය නොහැක.",
+        "deleteAccountText": "ඔබට ඇත්තටම ඔබගේ ගිණුම මකා දැමීමට අවශ්‍යද? මෙම ක්‍රියාවලිය පසුගමනය කළ නොහැක."
+    },
+
+    "saveConfirmationModal": {
+        "title": "තහවුරු කරන්න",
+        "subText": "ඔබට වෙනස්කම් සුරැකීමට අවශ්‍යද?"
+    },
+
+    "unsavedLeaveModal": {
+        "title": "සුරැකිව නැත!",
+        "subText": "ඔබ සුරැකීමකින් තොරව පිටව ගියහොත්, සියලු වෙනස්කම් අහිමි වනු ඇත."
+    },
+
+    "officerAddNewFieldModal": {
+        "title": "නව කුඹුරු එකතු කරන්න"
+    },
+
+    "officerAddNewResearchPaperModal": {
+        "title": "නව පර්යේෂණ පත්‍රිකාවක් එක් කරන්න",
+        "subText": "පර්යේෂණ පත්‍රිකාව තෝරන්න",
+        "uploadButtonText": "උඩුගත කරන්න"
+    },
+
+    "officerEditResearchCategoryModal": {
+        "title": "පර්යේෂණ කාණ්ඩය සංස්කරණය කරන්න"
+    },
+
+    "deleteAccountConfirmModal": {
+        "deleteYour": "ඔබගේ ගිණුම",
+        "account": "මකන්න",
+        "sorry": "ඔබ යනවා දැකීමට අපට කණගාටුයි.",
+        "subText1": "ගිණුම මකා දැමීම අවසන් වේ.",
+        "subText2": "ඔබගේ ගිණුම ප්‍රතිසාධනය කිරීමට",
+        "subText3": "ක්‍රමයක් නොමැත."
+    },
+
+    "changePasswordModal": {
+        "change": "මුරපදය",
+        "password": "වෙනස් කරන්න",
+        "newPasswordContains": "නව මුරපදයේ අඩංගු විය යුත්තේ:",
+        "rule1": "• අවම වශයෙන් අක්ෂර 6 ක්",
+        "rule2": "• අවම වශයෙන් ලොකු අකුරු 1ක් (A-Z)",
+        "rule3": "• අවම වශයෙන් කුඩා අකුරු 1ක් (a-z)",
+        "rule4": "• අවම වශයෙන් 1 අංකයක් (0-9)",
+        "rule5": "• අවම වශයෙන් විශේෂ අක්ෂර 1ක් (!@#$%^&*)"
+    },
+
+    "notFoundPage": {
+        "page": "පිටුව",
+        "notFound": "හමු වුණේ නැහැ ",
+        "subText1": "අපට කණගාටුයි, ඔබ ඉල්ලූ පිටුව",
+        "subText2": "සොයාගත නොහැකි විය.",
+        "subText3": "කරුණාකර මුල් පිටුවට",
+        "subText4": "ආපසු යන්න!"
+    },
+
+    "priorityDistibutionSchedule": {
+        "openingDates": "විවෘත කිරීමේ දිනයන් තෝරන්න",
+        "openingHours": "විවෘත කරන වේලාවන් තෝරන්න",
+        "individualTimeSlot": "තනි පුද්ගල කාලසටහන තෝරන්න",
+        "houurs": "පැය",
+        "timeSlot": "කාලසටහන",
+        "agraianDivision": "ගොවිජන කොට්ඨාසය",
+        "selectAgrarianDivision": "ගොවිජන කොට්ඨාසය තෝරන්න"
+    },
+
+    "forgotPasswordPage": {
+        "forgotPassword": "මුරපදය අමතක වුණා ද?",
+        "subText1": "අපි ඔබේ විද්‍යුත් තැපෑල වෙනත් කිසිවෙකු සමඟ බෙදා නොගනිමු",
+        "subText2": "අකුරු 6ක කේතයක් සඳහා ඔබගේ එන ලිපි පරීක්ෂා කරන්න tooby****@gmail.com"
+    },
+
+    "loginAndRegisterPage": {
+        "title": "Agrivo වෙත සාදරයෙන් පිළිගනිමු!",
+        "login": "ඇතුල් වන්න",
+        "register": "ලියාපදිංචි කරන්න",
+        "invalidCredentials": "වලංගු නොවන අක්තපත්‍ර!",
+        "forgotPassword": "මුරපදය අමතක වුණා ද?",
+        "or": "හෝ",
+        "informationText": "ගිණුම සාදන්න බොත්තම ක්ලික් කිරීමෙන් ඔබ නියම සහ කොන්දේසි වලට එකඟ වේ.",
+        "emailRequiredErrorText": "විද්‍යුත් තැපෑල අවශ්‍යයි",
+        "invalidEmailErrorText": "වලංගු නොවන විද්‍යුත් තැපෑලක්",
+        "passwordRequiredErrorText": "මුරපදය අවශ්‍යයි",
+        "firstNameRequiredErrorText": "පළමු නම අවශ්‍ය වේ",
+        "lastNameRequiredErrorText": "අවසාන නම අවශ්‍ය වේ",
+        "confirmPasswordRequiredErrorText": "තහවුරු මුරපදය අවශ්‍යයි",
+        "weakPasswordErrorText": "මුරපද ශක්තිය අඩුයි!",
+        "passwordMismatchErrorText": "මුරපද නොගැලපේ!"
+    },
+
+    "appBar": {
+        "furrowIrrigation": "විලි වාරිමාර්ග",
+        "researchDisseminating": "පර්යේෂණ බෙදා හැරීම",
+        "yieldPrediction": "අස්වැන්න පුරෝකථනය",
+        "priorityDistibution": "ප්රමුඛතා බෙදාහැරීම"
+    },
+
+    "drawer": {
+        "profile": "පැතිකඩ",
+        "notifications": "දැනුම්දීම් සැකසීම්",
+        "notificationSettings": "අපි තවමත් ඔබේ දැනුම්දීම් සැකසීම්වලින් පිටත ඔබේ ගිණුම පිළිබඳ වැදගත් දැනුම්දීම් ඔබට එවිය හැක.",
+        "pushNotifications": "තල්ලු දැනුම්දීම්",
+        "emailService": "ඊමේල් සේවාව"
+    },
+
+    "selectField": {
+        "farmer": "ගොවියා",
+        "selectFarmer": "ගොවියෙකු තෝරන්න",
+        "paddy": "වී",
+        "paddyType": "වී වර්ගයක් තෝරන්න",
+        "slope": "බෑවුමේ මට්ටම",
+        "selectSlope": "බෑවුමේ මට්ටම තෝරන්න",
+        "waterIn": "වතුර ඇතුලට",
+        "selectWaterIn": "පැත්තේ වතුර",
+        "waterOut": "ජලය පිටවීම",
+        "selectWaterOut": "වතුර පිට පැත්ත",
+        "category": "කාණ්ඩය",
+        "selectCategory": "කාණ්ඩයක් තෝරන්න",
+        "subCategory": "උප කාණ්ඩය",
+        "selectSubCategory": "උප කාණ්ඩයක් තෝරන්න",
+        "location": "ස්ථානය",
+        "selectLocation": "ස්ථානය තෝරන්න",
+        "locationErrorText": "ස්ථානය අවශ්‍ය වේ",
+        "paddyTypeErrorText": "වී වර්ගය අවශ්‍ය වේ",
+        "slopeErrorText": "බෑවුම අවශ්‍ය වේ",
+        "waterInErrorText": "ජලය ඇතුල් කිරීම අවශ්‍ය වේ",
+        "waterOutErrorText": "ජලය පිටවීම අවශ්‍ය වේ",
+        "farmerErrorText": "ගොවියා  අවශ්‍යයි",
+        "categoryRequiredErrorText": "පර්යේෂණ කාණ්ඩය අවශ්‍යයි",
+        "subCategoryRequiredError": "පර්යේෂණ උප කාණ්ඩය අවශ්‍ය වේ",
+        "hours": "වේලාවන්",
+        "selectHours": "විවෘත කරන වේලාවන් තෝරන්න",
+        "timeSlot": "කාල පරාසය",
+        "selectTimeSlot": "තනි පුද්ගල කාල පරාසය තෝරන්න",
+        "agraianDivision": "ගොවිජන කොට්ඨාසය ",
+        "selectAgrarianDivision": "ගොවිජන කොට්ඨාසය තෝරන්න",
+        "hoursErrorText": "විවෘත වේලාවන් අවශ්ය වේ",
+        "timeSlotErrorText": "තනි පුද්ගල කාල පරාසයක් අවශ්‍ය වේ",
+        "agrarianDivisionErrorText": "ගොවිජන කොට්ඨාසය අවශ්‍යයි",
+        "topicRequiredErrorText": "පර්යේෂණ පත්‍රිකා මාතෘකාව අවශ්‍ය වේ",
+        "calenderDateRequiredErrorText": "විවෘත දින අවශ්‍ය වේ"
+    },
+
+    "inputField": {
+        "fieldName": "නම",
+        "enterName": "කුඹුරු නම ඇතුලත් කරන්න",
+        "errorText": "කුඹුරු නම අවශ්‍ය වේ",
+        "codeRequiredErrorText": "කේතය අවශ්‍යයි",
+        "mobileNumberErrorText": "ජංගම අංකය ඉලක්කම් 10 අංකයක් විය යුතුය",
+        "paddyFieldNameMinCharacterCountError": "කුඹුරු නමෙහි අවම වශයෙන් අක්ෂර 3ක් වත් අඩංගු විය යුතුය"
+    },
+
+    "passwordInputField": {
+        "currentPassword": "වත්මන් මුර පදය",
+        "enterCurrentPassword": "වත්මන් මුරපදය ඇතුළත් කරන්න",
+        "newPassword": "නව මුරපදය",
+        "enterNewPassword": "නව මුරපදය ඇතුළත් කරන්න",
+        "confirmPassword": "මුරපදය තහවුරු කරන්න",
+        "enterConfirmPassword": "නව මුරපදය නැවත ඇතුල් කරන්න",
+        "password": "මුර පදය",
+        "enterPassword": "මුරපදය ඇතුළත් කරන්න",
+        "currentPasswordRequiredErrorText": "වත්මන් මුරපදය අවශ්‍ය වේ",
+        "newPasswordRequiredErrorText": "නව මුරපදයක් අවශ්‍ය වේ",
+        "confirmPasswordRequiredErrorText": "තහවුරු මුරපදය අවශ්‍යයි"
+    },
+
+    "containedButtonTitles": {
+        "upload": "උඩුගත කරන්න",
+        "deleteAccount": "මගේ ගිණුම මකන්න",
+        "cancel": "අවලංගු කරන්න",
+        "stay": "ඉන්න",
+        "leave": "යන්න",
+        "save": "සුරකින්න",
+        "tryAgain": "නැවත උත්සාහ කරන්න",
+        "yesDelete": "ඔව්, එය මකන්න!",
+        "continue": "දිගටම",
+        "next": "ඊළඟ",
+        "addNewPaper": "නව පර්යේෂණ පත්‍රිකාවක් එක් කරන්න",
+        "addNewPaddy": "නව කුඹුරු එකතු කරන්න",
+        "distributeQR": "කාලසටහන් බෙදාහරින්න",
+        "goHome": "මුල් පිටුවට යන්න",
+        "cteateSheet": "කාලසටහන සාදන්න",
+        "sendCode": "කේතය යවන්න",
+        "back": "ආපසු",
+        "verifyCode": "කේතය තහවුරු කරන්න",
+        "login": "ඇතුල් වන්න",
+        "createAccount": "ගිණුම තනන්න",
+        "enableDrawing": "ඇඳීම සක්රිය කරන්න",
+        "disableDrawing": "ඇඳීම අක්රිය කරන්න",
+        "deleteShape": "හැඩ ගොනුව මකන්න",
+        "editProfile": "සංස්කරණය කරන්න",
+        "changePassword": "මුරපදය වෙනස් කරන්න",
+        "deleteAccount2": "ගිණුම මකන්න"
+    },
+
+    "titles": {
+        "priorityDistributionSchedule": "ප්‍රමුඛතා බෙදාහැරීමේ කාලසටහන",
+        "researchFindings": "පර්යේෂණ සොයාගැනීම්",
+        "paddyFieldsDetails": "කුඹුරු විස්තර",
+        "finalzedTimeSchedule": "අවසාන කාලසටහන",
+        "paddyDrawing": "කුඹුරු වාරිමාර්ග ඇඳීමේ මෙවලම"
+    },
+
+    "DataTable": {
+        "researchNameColumn": "පර්යේෂණ නාමය",
+        "categoryColumn": "කාණ්ඩය",
+        "subCategoryColumn": "උප කාණ්ඩය",
+        "createdDateColumn": "සාදන ලද දිනය",
+        "actionColumn": "කටයුතු",
+        "researchList": "පර්යේෂණ සොයාගැනීම් ලැයිස්තුව",
+        "paddyFieldList": "කුඹුරු ලැයිස්තුව",
+        "paddyFieldNameColumn": "කුඹුරු නම",
+        "noOfIrrigationsColumn": "වාරිමාර්ග සංඛ්යාව",
+        "spaceBetweenIrrigationsColumn": "වාරිමාර්ග අතර අවකාශය(m)",
+        "acresColumn": "අක්කර",
+        "locationCoulmn": "ස්ථානය",
+        "slopeLevelColumn": "බෑවුම් මට්ටම",
+        "farmerNameColumn": "ගොවියාගේ නම",
+        "areaInAcresColumn": "ප්‍රදේශය (අක්කර වලින්)",
+        "riceVariantColumn": "සහල් ප්රභේදය",
+        "cultivationStartDateColumn": "වගාවේ ආරම්භක දිනය",
+        "priorityColumn": "ප්රමුඛත්වය",
+        "allocatedDateColumn": "වෙන් කළ දිනය",
+        "allocatedTimeSlotColumn": "වෙන් කරන ලද කාල පරතරය",
+        "finalizedTimeList": "අවසාන කාල ලැයිස්තුව",
+        "priorityDistributionSchedule": "ප්‍රමුඛතා බෙදාහැරීමේ කාලසටහන",
+        "addressColumn": "ලිපිනය",
+        "nicColumn": "NIC",
+        "agraianDivisionColumn": "ගොවිජන අංශය",
+        "riceTypeColumn": "සහල් වර්ගය",
+        "mobileColumn": "දුරකථන අංකය",
+        "summaryColumn": "සාරාංශය",
+        "totalFarmersCount": "මුළු ගොවීන් : ",
+        "allocatedFarmersCount": "කාලසටහන් වෙන් කළ ගොවීන් : ",
+        "notAlloctedFarmersCount": "කාලසටහන් වෙන් නොකළ ගොවීන් : ",
+        "downloadNotAllocated": "කාලසටහන් වෙන් නොකළ ගොවීන් "
+    },
+    "footer": {
+        "title": "Agrivo",
+        "paragraph": "© 2023 අයිතිය: Agrivo Paddy Solutions"
+    },
+    "viewPaddyFieldPage": {
+        "paddyFieldNameTitle": "කුඹුරු නම: ",
+        "locationTitle": "ස්ථානය: ",
+        "paddyTypeTitle": "වී වර්ගය: ",
+        "slopeLevelTitle": "බෑවුම් මට්ටම: ",
+        "waterInLocationTitle": "ස්ථානයේ ජලය: ",
+        "waterOutLocationTitle": "ජලය පිටවන ස්ථානය: ",
+        "areaTitle": "ප්රදේශය: ",
+        "numberOfIrrigationsTitle": "වාරිමාර්ග ගණන (ආසන්න වශයෙන්): ",
+        "spaceBetweenIrrigationsTitle": "වාරිමාර්ග අතර අවකාශය (ආසන්න වශයෙන්): ",
+        "priorityDistributionSchedule": "ප්‍රමුඛතා බෙදාහැරීමේ කාලසටහන",
+        "addressColumn": "ලිපිනය",
+        "nicColumn": "NIC",
+        "agraianDivisionColumn": "ගොවිජන අංශය",
+        "riceTypeColumn": "සහල් වර්ගය"
+    },
+    "snackBarMessage": {
+        "researchPaperSubmissionInProgress": "පර්යේෂණ පත්‍රිකා සාරාංශ කිරීම සිදු වෙමින් පවතී!",
+        "researchPaperSubmissionSuccess": "පර්යේෂණ පත්‍රිකාව සාර්ථකව ප්‍රකාශයට පත් විය!",
+        "researchPaperSubmissionError": "මොකක්හරි වැරැද්දක් වෙලා! (ගොනු ආකෘතිය වලංගු නොවේ!)"
+    },
+    "priorityDistributionSteps": {
+        "step1": "පියවර 01 : ",
+        "step1Title": "ගොවි විස්තර උඩුගත කරන්න",
+        "step1Description": "පොහොර සහනාධාරය සඳහා සුදුසුකම් ඇති ලියාපදිංචි ගොවීන්ගේ තොරතුරු අඩංගු Excel ගොනුව උඩුගත කිරීමෙන් ආරම්භ කරන්න. මෙය සිදු කිරීම සඳහා වේදිකාවේ ඇති 'උඩුගත කරන්න' බොත්තම ක්ලික් කරන්න. ගොනුව සාර්ථකව උඩුගත කළ පසු, පද්ධතිය විසින් ඉදිරිපත් කරන ලද දත්ත මත පදනම්ව ප්‍රමුඛතා කාලසටහන ජනනය කරනු ඇත. එවිට ඔබව ඔබගේ යොමුව සඳහා ප්‍රමුඛතා කාලසටහන පෙන්වන වගුවකට හරවා යවනු ලැබේ.",
+        "step2": "පියවර 02 : ",
+        "step2Title": "දින සහ කාලසටහන් වෙන් කරන්න",
+        "step2Description": "කැලැන්ඩරයෙන් පොහොර සහනාධාරය බෙදා හැරීම සඳහා ගොවිජන කාර්යාලය විවෘත කරන දිනයන් තෝරන්න, පොහොර සහනාධාරය බෙදා හැරීම සඳහා ගොවිජන කාර්යාලය විවෘත කරන වේලාවන් තෝරන්න, එක් එක් ගොවියෙකුට ඒවා ලබා ගැනීමට ලබා දෙන කාල සීමාව තෝරන්න. සහනාධාරය. ඉන්පසු ගොවිජන කොට්ඨාසය තෝරන්න. මේ සියල්ල තේරීමෙන් පසු කාල කාලසටහනක් සෑදීමට 'කාලසටහන සාදන්න' බොත්තම ක්ලික් කරන්න. මෙය මත ක්ලික් කිරීමෙන් පසු පද්ධතිය විසින් කාලසටහන නිර්මාණය කරනු ලබන අතර ඔබ විසින් සාදන ලද කාලසටහන වෙත ඔබව හරවා යවනු ලැබේ.",
+        "step3": "පියවර 03 : ",
+        "step3Title": "කාලසටහන් බෙදාහරින්න",
+        "step3Description": "ඔබ පියවර 02 හි ලබා දී ඇති යෙදවුම් වලට අනුව කාලසටහනක් වෙන් කරන ලද ගොවීන් බැලීමට ඔබට හැකි වනු ඇත. වෙන් කර ඇති කාලසටහන් කෙටි පණිවුඩ හරහා ගොවීන් වෙත බෙදා හැරීමට 'කාලසටහන් බෙදාහරින්න' බොත්තම ක්ලික් කරන්න."
+    },
+    "drawPaddyField": {
+        "invalidShape": "වලංගු නොවන හැඩයක් අනාවරණය විය, කරුණාකර වලංගු හැඩයක් අඳින්න.",
+        "multipleShapeInvalid": "වලංගු නොවන හැඩයක් අනාවරණය විය, එක් කුඹුරු යායක් පමණක් තෝරාගත හැක.",
+        "helpToolTip": {
+            "point1": "ඔබ තෝරාගත් කුඹුරු ඇඳීමට සිතියමේ ඇති බහුඅස්‍ර මෙවලම භාවිත කරන්න.",
+            "point2": "කුඹුරු යාය වලංගු හැඩයක් (බහුඅස්ර) විය යුතු අතර ලකුණු 4ක් හෝ 5ක් තිබිය යුතුය.",
+            "point3": "කුඹුරු යාය වලංගු හැඩයක් (බහුඅස්ර) විය අතර ලකුණු 4ක් හෝ 5ක් තිබිය යුතුය.",
+            "point4": "කුඹුර ක්ලික් කිරීමෙන් ඔබට තෝරාගත් ක්ෂේත්‍රය සංස්කරණය කළ හැකිය.",
+            "point5": "ඔබට වරකට තෝරා ගත හැක්කේ එක් කුඹුරක් පමණි."
+        }
+    }
+}

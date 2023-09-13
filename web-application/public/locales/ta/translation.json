@@ -1,0 +1,321 @@
+{
+    "title": "மீண்டும் வருக",
+    "description": "காலை வணக்கம்",
+    "test": {
+        "part1": "ஆரம்பிக்க முடியும் போது, <1>src/App.js</1> ஐ திருத்தி சேமிக்கவும்.",
+        "part2": "மேலே உள்ள பொத்தானை பயன்படுத்தி ஆங்கிலம் மற்றும் ஜெர்மன் மீது மொழியை மாற்றவும்."
+    },
+    "first-name-label": "முதல் பெயர்",
+    "last-name-label": "கடைசி பெயர்",
+    "email-label": "மின்னஞ்சல்",
+    "submit": "சமர்ப்பிக்கவும்",
+    "registration-required-error-msg": "முதல் பெயர் காலியாக இருக்கக்கூடாது",
+
+    "successModal": {
+        "title": "வெற்றி!",
+        "subText": "உள்ளடக்கம் வெற்றிகரமாகச் சேமிக்கப்பட்டது.",
+        "registrationSuccessText": "நீங்கள் வெற்றிகரமாக பதிவு செய்துள்ளீர்கள்!",
+        "changePasswordSuccessText": "உங்கள் கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது!",
+        "accountDeleteSuccessText": "உங்கள் கணக்கு வெற்றிகரமாக நீக்கப்பட்டது!",
+        "profileUpdateSuccessText": "உங்கள் சுயவிவரம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது!",
+        "addResearchPaperSuccessText": "ஆராய்ச்சி தாள் வெற்றிகரமாக சேர்க்கப்பட்டது!",
+        "editResearchCategorySuccessText": "ஆராய்ச்சி வகை வெற்றிகரமாக புதுப்பிக்கப்பட்டது!",
+        "notificationSendSuccessText": "டைம்ஸ்லாட்டுகள் SMS மூலம் வெற்றிகரமாக விநியோகிக்கப்பட்டது!",
+        "downloadSuccessText": "கோப்பு வெற்றிகரமாக பதிவிறக்கம் செய்யப்பட்டது!"
+    },
+
+    "errorModal": {
+        "title": "பிழை!",
+        "subText": "ஏதாவது தவறு ஏற்பட்டது. மீண்டும் முயற்சிக்கவும்."
+    },
+
+    "deleteConfirmationModal": {
+        "title": "எச்சரிக்கை!",
+        "subText": "இந்த பதிவுகளை நீக்க விரும்புகிறீர்களா? இந்த செயல்பாட்டை மீட்பது முடியாது.",
+        "deleteAccountText": "உங்கள் கணக்கை உண்மையில் நீக்க விரும்புகிறீர்களா? இந்த செயல்முறையை செயல்தவிர்க்க முடியாது."
+    },
+
+    "saveConfirmationModal": {
+        "title": "உறுதி செய்யுங்கள்",
+        "subText": "மாற்றங்களைச் சேமிக்க விரும்புகிறீர்களா?"
+    },
+
+    "unsavedLeaveModal": {
+        "title": "சேமிக்கப்படாதது!",
+        "subText": "சேமிக்கப்படாத அனைத்து மாற்றங்களும் இழக்கப்படும், சேமிப்பதில் இல்லாமல் நீக்கப்படும்."
+    },
+
+    "officerAddNewFieldModal": {
+        "title": "புதிய நெல் வயலைச் சேர்க்கவும்"
+    },
+
+    "officerAddNewResearchPaperModal": {
+        "title": "புதிய ஆய்வுக் கட்டுரையைச் சேர்க்கவும்",
+        "subText": "ஆராய்ச்சி தாளைத் தேர்ந்தெடுக்கவும்",
+        "uploadButtonText": "பதிவேற்றவும்"
+    },
+
+    "officerEditResearchCategoryModal": {
+        "title": "ஆராய்ச்சி வகையைத் திருத்தவும்"
+    },
+
+    "deleteAccountConfirmModal": {
+        "deleteYour": "உங்கள் கணக்குகள்",
+        "account": "அழி",
+        "sorry": "நீங்கள் சென்றதற்கு நாங்கள் வருந்துகிறோம்.",
+        "subText1": "கணக்கை நீக்குவது இறுதியானது.",
+        "subText2": "உங்கள் கணக்கை மீட்டெடுக்க",
+        "subText3": "எந்த முறையும் இல்லை."
+    },
+
+    "changePasswordModal": {
+        "change": "கடவுச்சொல்",
+        "password": "மாற்றம்",
+        "newPasswordContains": "புதிய கடவுச்சொல்லில் இருக்க வேண்டும்:",
+        "rule1": "• குறைந்தது 6 எழுத்துகள் ",
+        "rule2": "• குறைந்தது 1 பெரிய எழுத்து (A-Z)",
+        "rule3": "• குறைந்தது 1 சிற்றெழுத்து (a-z)",
+        "rule4": "• குறைந்தது 1 எண் (0-9)",
+        "rule5": "• குறைந்தது 1 சிறப்பு எழுத்து (!@#$%^&*)"
+    },
+
+    "notFoundPage": {
+        "page": "பக்கம்",
+        "notFound": "கிடைக்கவில்லை",
+        "subText1": "மன்னிக்கவும், நீங்கள் கோரிய பக்கம்",
+        "subText2": "கண்டுபிடிக்க முடியவில்லை.",
+        "subText3": "முகப்புப் பக்கத்திற்குச் செல்லவும்",
+        "subText4": "திரும்பி போ!"
+    },
+
+    "priorityDistibutionSchedule": {
+        "openingDates": "திறக்கும் தேதிகளைத் தேர்ந்தெடுக்கவும்",
+        "openingHours": "திறக்கும் நேரத்தைத் தேர்ந்தெடுக்கவும்",
+        "individualTimeSlot": "தனிப்பட்ட அட்டவணையைத் தேர்ந்தெடுக்கவும்",
+        "houurs": "மணி",
+        "timeSlot": "நேர அட்டவணை",
+        "agraianDivision": "விவசாய பிரிவு",
+        "selectAgrarianDivision": "விவசாயப் பிரிவைத் தேர்ந்தெடுக்கவும்"
+    },
+
+    "forgotPasswordPage": {
+        "forgotPassword": "கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
+        "subText1": "உங்கள் மின்னஞ்சலை வேறு யாருடனும் பகிர்ந்து கொள்ள மாட்டோம்",
+        "subText2": "அக்குரு 6k குறியீட்டிற்கான உங்கள் கட்டுரைகளை சரிபார்க்கவும் tooby****@gmail.com"
+    },
+
+    "loginAndRegisterPage": {
+        "title": "அக்ரிவோவை வரவேற்கிறோம்!",
+        "login": "உள்நுழைய",
+        "register": "பதிவு",
+        "invalidCredentials": "தவறான ஆவண சான்றுகள்!",
+        "forgotPassword": "கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
+        "or": "அல்லது",
+        "informationText": "கணக்கை உருவாக்கு பொத்தானைக் கிளிக் செய்வதன் மூலம் நீங்கள் விதிமுறைகள் மற்றும் நிபந்தனைகளை ஒப்புக்கொள்கிறீர்கள்.",
+        "emailRequiredErrorText": "மின்னஞ்சல் தேவை",
+        "invalidEmailErrorText": "கடவுச்சொல் தேவை",
+        "passwordRequiredErrorText": "Password is Required",
+        "firstNameRequiredErrorText": "முதல் பெயர் தேவை",
+        "lastNameRequiredErrorText": "கடைசி பெயர் தேவை",
+        "confirmPasswordRequiredErrorText": "கடவுச்சொல் தேவை என்பதை உறுதிப்படுத்தவும்",
+        "weakPasswordErrorText": "கடவுச்சொல் வலிமை குறைவாக உள்ளது!",
+        "passwordMismatchErrorText": "கடவுச்சொற்கள் பொருந்தவில்லை!"
+    },
+
+    "appBar": {
+        "furrowIrrigation": "சால் நீர்ப்பாசனம்",
+        "researchDisseminating": "ஆராய்ச்சி பரப்புதல்",
+        "yieldPrediction": "மகசூல் கணிப்பு",
+        "priorityDistibution": "முன்னுரிமை விநியோகம்"
+    },
+
+    "drawer": {
+        "profile": "சுயவிவரம்",
+        "notifications": "அறிவிப்பு அமைப்புகள்",
+        "notificationSettings": "உங்கள் அறிவிப்பு அமைப்புகளுக்கு வெளியே உங்கள் கணக்கைப் பற்றிய முக்கியமான அறிவிப்புகளை நாங்கள் உங்களுக்கு அனுப்பலாம்.",
+        "pushNotifications": "புஷ் அறிவிப்புகள்",
+        "emailService": "மின்னஞ்சல் சேவை"
+    },
+
+    "selectField": {
+        "farmer": "உழவர்",
+        "selectFarmer": "ஒரு விவசாயியைத் தேர்ந்தெடுக்கவும்",
+        "paddy": "நெல்",
+        "paddyType": "ஒரு நெல் வகையைத் தேர்ந்தெடுக்கவும்",
+        "slope": "சாய்வு நிலை",
+        "selectSlope": "சாய்வின் அளவைத் தேர்ந்தெடுக்கவும்",
+        "waterIn": "தண்ணீர் உள்ளே",
+        "selectWaterIn": "பக்கத்தில் தண்ணீர்",
+        "waterOut": "வாட்டர் அவுட்",
+        "selectWaterOut": "வாட்டர் அவுட் சைட்",
+        "category": "வகை",
+        "selectCategory": "ஓர் வகையறாவை தேர்ந்தெடு",
+        "subCategory": "துணை வகை",
+        "selectSubCategory": "ஒரு துணை வகையைத் தேர்ந்தெடுக்கவும்",
+        "location": "இடம்",
+        "selectLocation": "இருப்பிடத்தைத் தேர்ந்தெடுக்கவும்",
+        "locationErrorText": "இடம் தேவை",
+        "paddyTypeErrorText": "நெல் வகை தேவை",
+        "slopeErrorText": "சாய்வு தேவை",
+        "waterInErrorText": "தண்ணீர் தேவை",
+        "waterOutErrorText": "தண்ணீர் வெளியேற்றம் அவசியம்",
+        "farmerErrorText": "விவசாயி தேவை",
+        "categoryRequiredErrorText": "ஆராய்ச்சி வகை தேவை",
+        "subCategoryRequiredError": "ஆராய்ச்சி துணை வகை தேவை",
+        "emailRequiredErrorText": "மின்னஞ்சல் தேவை",
+        "invalidEmailErrorText": "தவறான மின்னஞ்சல்",
+        "passwordRequiredErrorText": "கடவுச்சொல் தேவை",
+        "hours": "மணிநேரம்",
+        "selectHours": "திறக்கும் நேரத்தைத் தேர்ந்தெடுக்கவும்",
+        "timeSlot": "ஒதுக்கப்பட்ட நேரம்",
+        "selectTimeSlot": "தனிப்பட்ட நேர ஸ்லாட்டைத் தேர்ந்தெடுக்கவும்",
+        "agraianDivision": "விவசாய பிரிவு",
+        "selectAgrarianDivision": "விவசாயப் பிரிவைத் தேர்ந்தெடுக்கவும்",
+        "hoursErrorText": "திறக்கும் நேரம் தேவை",
+        "timeSlotErrorText": "தனிப்பட்ட நேர ஸ்லாட் தேவை",
+        "agrarianDivisionErrorText": "விவசாய பிரிவு தேவை",
+        "topicRequiredErrorText": "ஆராய்ச்சி தாள் தலைப்பு தேவை",
+        "calenderDateRequiredErrorText": "திறந்த தேதிகள் தேவை"
+    },
+
+    "inputField": {
+        "fieldName": "பெயர்",
+        "enterName": "நெல் வயலின் பெயரை உள்ளிடவும்",
+        "errorText": "நெல் வயலின் பெயர் தேவை",
+        "codeRequiredErrorText": "குறியீடு தேவை",
+        "mobileNumberErrorText": "மொபைல் எண் 10 இலக்க எண்ணாக இருக்க வேண்டும்",
+        "paddyFieldNameMinCharacterCountError": "நெல் வயலின் பெயரில் குறைந்தது 3 எழுத்துகள் இருக்க வேண்டும்"
+    },
+
+    "passwordInputField": {
+        "currentPassword": "தற்போதைய கடவுச்சொல்",
+        "enterCurrentPassword": "தற்போதைய கடவுச்சொல்லை உள்ளிடவும்",
+        "newPassword": "புதிய கடவுச்சொல்",
+        "enterNewPassword": "புதிய கடவுச்சொல்லை உள்ளிடவும்",
+        "confirmPassword": "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+        "enterConfirmPassword": "புதிய கடவுச்சொல்லை மீண்டும் உள்ளிடவும்",
+        "password": "கடவுச்சொல்",
+        "enterPassword": "கடவுச்சொல்லை உள்ளிடவும்",
+        "currentPasswordRequiredErrorText": "தற்போதைய கடவுச்சொல் தேவை",
+        "newPasswordRequiredErrorText": "புதிய கடவுச்சொல் தேவை",
+        "confirmPasswordRequiredErrorText": "கடவுச்சொல் தேவை என்பதை உறுதிப்படுத்தவும்"
+    },
+
+    "containedButtonTitles": {
+        "upload": "பதிவேற்றவும்",
+        "deleteAccount": "எனது கணக்கை நீக்கு",
+        "cancel": "ரத்து செய்",
+        "stay": "நிலையில் இருக்க",
+        "leave": "விடு",
+        "save": "சேமி",
+        "tryAgain": "மீண்டும் முயற்சிக்கவும்",
+        "yesDelete": "ஆமாம், அதை நீக்குக!",
+        "continue": "தொடர்க",
+        "next": "அடுத்தது",
+        "addNewPaper": "புதிய ஆய்வுக் கட்டுரையைச் சேர்க்கவும்",
+        "addNewPaddy": "புதிய நெல் வயலைச் சேர்க்கவும்",
+        "distributeQR": "டைம்ஸ்லாட்டுகளை விநியோகிக்கவும்",
+        "goHome": "முகப்பு பக்கத்திற்கு செல்லவும்",
+        "cteateSheet": "நேர அட்டவணையை உருவாக்கவும்",
+        "sendCode": "குறியீட்டை அனுப்பவும்",
+        "back": "திரும்ப",
+        "verifyCode": "குறியீட்டை உறுதிப்படுத்தவும்",
+        "login": "உள்நுழைய",
+        "createAccount": "உங்கள் கணக்கை துவங்குங்கள்",
+        "enableDrawing": "வரைபடத்தை இயக்கு",
+        "disableDrawing": "வரைபடத்தை முடக்கு",
+        "deleteShape": "வடிவக் கோப்பை நீக்கு",
+        "editProfile": "தொகு",
+        "changePassword": "கடவுச்சொல்லை மாற்று",
+        "deleteAccount2": "கணக்கை நீக்கவும்"
+    },
+
+    "titles": {
+        "priorityDistributionSchedule": "முன்னுரிமை விநியோக அட்டவணை",
+        "researchFindings": "ஆராய்ச்சி முடிவுகள்",
+        "paddyFieldsDetails": "நெல் வயல்கள் விவரம்",
+        "finalzedTimeSchedule": "இறுதி செய்யப்பட்ட நேர அட்டவணை",
+        "paddyDrawing": "நெல் வயலில் பாசனம் வரைதல் கருவி"
+    },
+    "DataTable": {
+        "researchNameColumn": "ஆராய்ச்சி பெயர்",
+        "categoryColumn": "வகை",
+        "subCategoryColumn": "துணை வகை",
+        "createdDateColumn": "உருவாக்கப்பட்ட தேதி",
+        "actionColumn": "செயல்",
+        "researchList": "ஆராய்ச்சி முடிவுகள் பட்டியல்",
+        "paddyFieldList": "நெல் வயல்கள் பட்டியல்",
+        "paddyFieldNameColumn": "நெல் வயலின் பெயர்",
+        "noOfIrrigationsColumn": "பாசனங்களின் எண்ணிக்கை",
+        "spaceBetweenIrrigationsColumn": "பாசனங்களுக்கு இடையே உள்ள இடம்(m)",
+        "acresColumn": "ஏக்கர்",
+        "locationCoulmn": "இடம்",
+        "slopeLevelColumn": "சாய்வு நிலை",
+        "farmerNameColumn": "விவசாயி பெயர்",
+        "areaInAcresColumn": "பரப்பளவு (ஏக்கர்களில்)",
+        "riceVariantColumn": "அரிசி மாறுபாடு",
+        "cultivationStartDateColumn": "சாகுபடியின் தொடக்க தேதி",
+        "priorityColumn": "முன்னுரிமை",
+        "allocatedDateColumn": "ஒதுக்கப்பட்ட தேதி",
+        "allocatedTimeSlotColumn": "ஒதுக்கப்பட்ட நேர ஸ்லாட்",
+        "finalizedTimeList": "இறுதியான நேரப் பட்டியல்",
+        "priorityDistributionSchedule": "முன்னுரிமை விநியோக அட்டவணை",
+        "addressColumn": "முகவரி",
+        "nicColumn": "NIC",
+        "agraianDivisionColumn": "விவசாய பிரிவு",
+        "riceTypeColumn": "அரிசி வகை",
+        "mobileColumn": "கைபேசி எண்",
+        "summaryColumn": "சுருக்கம்",
+        "totalFarmersCount": "முழு கோவீன் : ",
+        "allocatedFarmersCount": "காலகுறிப்புகள் வென் செய்ய கோவீன் : ",
+        "notAlloctedFarmersCount": "காலகுறிப்புகள் வேண்டாம் கோவீன் : ",
+        "downloadNotAllocated": "காலகுறிப்புகள் வேண்டாம் கோவீன் "
+    },
+    "footer": {
+        "title": "Agrivo",
+        "paragraph": "© 2023 காப்புரிமை: Agrivo Paddy Solutions"
+    },
+    "viewPaddyFieldPage": {
+        "paddyFieldNameTitle": "நெல் வயலின் பெயர்: ",
+        "locationTitle": "இடம்: ",
+        "paddyTypeTitle": "நெல் வகை: ",
+        "slopeLevelTitle": "சாய்வு நிலை: ",
+        "waterInLocationTitle": "நீர் இருப்பிடம்: ",
+        "waterOutLocationTitle": "நீர் வெளியேறும் இடம்: ",
+        "areaTitle": "பகுதி: ",
+        "numberOfIrrigationsTitle": "நீர்ப்பாசனங்களின் எண்ணிக்கை (தோராயமாக): ",
+        "spaceBetweenIrrigationsTitle": "நீர்ப்பாசனங்களுக்கு இடையிலான இடைவெளி (தோராயமாக): ",
+        "priorityDistributionSchedule": "முன்னுரிமை விநியோக அட்டவணை",
+        "addressColumn": "முகவரி",
+        "nicColumn": "NIC",
+        "agraianDivisionColumn": "விவசாய பிரிவு",
+        "riceTypeColumn": "அரிசி வகை"
+    },
+    "snackBarMessage": {
+        "researchPaperSubmissionInProgress": "ஆய்வுக்கட்டுரை சுருக்கம் செயல்பாட்டில் உள்ளது!",
+        "researchPaperSubmissionSuccess": "ஆய்வுக் கட்டுரை வெற்றிகரமாக வெளியிடப்பட்டது!",
+        "researchPaperSubmissionError": "ஏதோ தவறு நடந்துவிட்டது! (கோப்பு வடிவம் தவறானது!)"
+    },
+    "priorityDistributionSteps": {
+        "step1": "படி 01 : ",
+        "step1Title": "விவசாயி விவரங்களைப் பதிவேற்று",
+        "step1Description": "உர மானியத்திற்குத் தகுதியான பதிவு செய்யப்பட்ட விவசாயிகளின் தகவல்களைக் கொண்ட எக்செல் கோப்பைப் பதிவேற்றம் செய்வதன் மூலம் தொடங்கவும். இதைச் செய்ய, மேடையில் கொடுக்கப்பட்டுள்ள 'அப்லோட்' பொத்தானைக் கிளிக் செய்யவும். கோப்பு வெற்றிகரமாக பதிவேற்றப்பட்டதும், தி. சமர்ப்பிக்கப்பட்ட தரவின் அடிப்படையில் கணினி முன்னுரிமை அட்டவணையை உருவாக்கும். பின்னர் உங்கள் குறிப்புக்கான முன்னுரிமை அட்டவணையைக் காண்பிக்கும் அட்டவணைக்கு நீங்கள் திருப்பி விடப்படுவீர்கள்.",
+        "step2": "படி 02 : ",
+        "step2Title": "தேதிகள் மற்றும் நேர இடைவெளிகளை ஒதுக்கவும்",
+        "step2Description": "நாட்காட்டியிலிருந்து உர மானியத்தை விநியோகிக்க கமநல அலுவலகம் திறக்கப்படும் தேதிகளைத் தேர்வு செய்யவும், உர மானியத்தை விநியோகிக்க கமநல அலுவலகம் திறக்கப்படும் நேரத்தைத் தேர்வு செய்யவும், ஒரு தனிப்பட்ட விவசாயிக்கு அவற்றைப் பெறுவதற்கு வழங்கப்படும் காலக்கெடுவைத் தேர்வு செய்யவும். மானியம். பின்னர் விவசாயப் பிரிவைத் தேர்ந்தெடுக்கவும். இவை அனைத்தையும் தேர்ந்தெடுத்த பிறகு, நேர அட்டவணையை உருவாக்க உருவாக்க நேர அட்டவணை பொத்தானைக் கிளிக் செய்யவும். இதைக் கிளிக் செய்த பிறகு, கணினி நேர அட்டவணையை உருவாக்கும் மற்றும் நீங்கள் உருவாக்கப்பட்ட நேர அட்டவணைக்கு திருப்பி விடப்படுவீர்கள்.",
+        "step3": "படி 03 : ",
+        "step3Title": "நேர இடைவெளிகளை விநியோகிக்கவும்",
+        "step3Description": "படி 02 இல் நீங்கள் வழங்கிய உள்ளீடுகளின்படி நேர ஒதுக்கீடு செய்யப்பட்ட விவசாயிகளை உங்களால் பார்க்க முடியும். 'விநியோக காலக்கெடுவை' என்ற பட்டனை கிளிக் செய்து விவசாயிகளுக்கு எஸ்எம்எஸ் மூலம் விநியோகிக்கவும்."
+    },
+    "drawPaddyField": {
+        "invalidShape": "தவறான வடிவம் கண்டறியப்பட்டது, சரியான வடிவத்தை வரையவும்.",
+        "multipleShapeInvalid": "தவறான வடிவம் கண்டறியப்பட்டது, ஒரு நெல் வயலை மட்டுமே தேர்ந்தெடுக்க முடியும்.",
+        "helpToolTip": {
+            "point1": "நீங்கள் தேர்ந்தெடுத்த நெல் வயலை வரைய வரைபடத்தில் உள்ள பலகோணக் கருவியைப் பயன்படுத்தவும்.",
+            "point2": "நெல் வயல் சரியான வடிவமாக (பலகோணம்) இருக்க வேண்டும் மற்றும் 4 அல்லது 5 புள்ளிகளைக் கொண்டிருக்க வேண்டும்.",
+            "point3": "தேர்ந்தெடுக்கப்பட்ட நெல் வயலை நீக்க விரும்பினால், நீக்கு கருவியைப் பயன்படுத்தவும்.",
+            "point4": "நெல் வயலைக் கிளிக் செய்வதன் மூலம், தேர்ந்தெடுக்கப்பட்ட வயலைத் திருத்தலாம்.",
+            "point5": "நீங்கள் ஒரு நேரத்தில் ஒரு நெல் வயலை மட்டுமே தேர்ந்தெடுக்க முடியும்."
+        }
+    }
+}
