@@ -9,7 +9,7 @@ export const unProtectedApiAsync = (
 ) => {
     return new Promise<AxiosResponse>((resolve, reject) => {
         axios({
-            url: `${ApiConstants.BASE_CLOUD_API_URL}/${version}/${ApiConstants.PUBLIC_URL}/${url}`,
+            url: `${ApiConstants.BASE_LOCAL_API_URL}/${version}/${ApiConstants.PUBLIC_URL}/${url}`,
             method,
             data,
         })

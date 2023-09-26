@@ -12,7 +12,7 @@ export const protectedApiAsync = (
         const token = BrowserLocalStorage.GetAccessToken()
 
         axios({
-            url: `${ApiConstants.BASE_CLOUD_API_URL}/${version}/${url}`,
+            url: `${ApiConstants.BASE_LOCAL_API_URL}/${version}/${url}`,
             method,
             headers: {
                 Authorization: 'Bearer ' + token,

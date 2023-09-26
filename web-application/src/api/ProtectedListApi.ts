@@ -13,7 +13,7 @@ export const protectedListApiAsync = (
     sort = 'desc'
 ) => {
     return new Promise<AxiosResponse>((resolve, reject) => {
-        let apiUrl = `${ApiConstants.BASE_CLOUD_API_URL}/${version}/${url}/list${custom}`
+        let apiUrl = `${ApiConstants.BASE_LOCAL_API_URL}/${version}/${url}/list${custom}`
 
         if (includePaginations) {
             apiUrl += `?limit=${limit}&offset=${offset}&sort=${sort}`
