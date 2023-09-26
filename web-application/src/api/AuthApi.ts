@@ -1,6 +1,6 @@
-import axios, { AxiosError, AxiosResponse } from 'axios'
-import ApiConstants from '../constants/ApiConstants'
-import { Versions } from '../types/enums/Versions'
+import axios, { AxiosError, AxiosResponse } from "axios";
+import ApiConstants from "../constants/ApiConstants";
+import { Versions } from "../types/enums/Versions";
 
 export const authApiAsync = (data: any) => {
     return new Promise<AxiosResponse>((resolve, reject) => {

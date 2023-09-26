@@ -1,11 +1,11 @@
-import axios, { AxiosError, AxiosResponse } from 'axios'
-import ApiConstants from '../constants/ApiConstants'
+import axios, { AxiosError, AxiosResponse } from "axios";
+import ApiConstants from "../constants/ApiConstants";
 
 export const unProtectedApiAsync = (
-    method: string,
-    version: string,
-    url: string,
-    data?: JSON
+  method: string,
+  version: string,
+  url: string,
+  data?: JSON
 ) => {
     return new Promise<AxiosResponse>((resolve, reject) => {
         axios({
