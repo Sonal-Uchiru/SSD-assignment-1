@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from "express";
 import cors from "cors";
-import helmet, { noSniff } from "helmet";
+import helmet from "helmet";
 import connectorDb from "./helpers/Dbconnector";
 import * as dotenv from "dotenv";
 import { expressjwt as jwt } from "express-jwt";
@@ -8,8 +8,7 @@ import morgan from "morgan";
 import compression from "compression";
 import swaggerUI from "swagger-ui-express";
 import swaggerJSDoc from "swagger-jsdoc";
-import open from "open";
-import csrf from "csrf";
+
 import { optionsConfig } from "./utils/swagger/config/Options";
 
 // Routers
@@ -41,8 +40,10 @@ app.use(
       "http://localhost:3000",
       "https://velvety-truffle-19b644.netlify.app",
     ],
+    methods: ["POST", "PUT", "DELETE", "GET", "PATCH"],
   })
 );
+
 app.use(
   compression({
     level: 6,
