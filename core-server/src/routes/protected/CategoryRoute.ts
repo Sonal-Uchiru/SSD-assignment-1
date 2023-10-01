@@ -1,16 +1,38 @@
-import { Router } from 'express'
-import CategoryController from '../../controllers/protected/CategoryController'
+import { Router } from "express";
+import CategoryController from "../../controllers/protected/CategoryController";
+import { AuthorizedUserRoles } from "../../middlewares/Authorization";
+import { UserRoles } from "../../types/enum/user/UserRoles";
 
-const categoryRoute = Router()
+const categoryRoute = Router();
 
-categoryRoute.post('/', CategoryController.saveCategoryAsync)
+categoryRoute.post(
+  "/",
+  AuthorizedUserRoles([UserRoles.Officer]),
+  CategoryController.saveCategoryAsync
+);
 
-categoryRoute.get('/list', CategoryController.getCategoryListAsync)
+categoryRoute.get(
+  "/list",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  CategoryController.getCategoryListAsync
+);
 
-categoryRoute.get('/:id/subcategories', CategoryController.getSubCategoriesByCategoryAsync)
+categoryRoute.get(
+  "/:id/subcategories",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  CategoryController.getSubCategoriesByCategoryAsync
+);
 
-categoryRoute.get('/userFavourtie', CategoryController.getUserFavouriteCategoriesAsync)
+categoryRoute.get(
+  "/userFavourtie",
+  AuthorizedUserRoles([UserRoles.Farmer]),
+  CategoryController.getUserFavouriteCategoriesAsync
+);
 
-categoryRoute.put('/userFavourtie', CategoryController.addCategoryUserFavouriteAsync)
+categoryRoute.put(
+  "/userFavourtie",
+  AuthorizedUserRoles([UserRoles.Farmer]),
+  CategoryController.addCategoryUserFavouriteAsync
+);
 
-export default categoryRoute
+export default categoryRoute;

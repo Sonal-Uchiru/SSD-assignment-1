@@ -1,16 +1,20 @@
-import { Router } from 'express'
-import SoilTypeController from '../../controllers/protected/SoilTypeController'
+import { Router } from "express";
+import SoilTypeController from "../../controllers/protected/SoilTypeController";
+import { AuthorizedUserRoles } from "../../middlewares/Authorization";
+import { UserRoles } from "../../types/enum/user/UserRoles";
 
-const soilTypeRoute = Router()
+const soilTypeRoute = Router();
 
 soilTypeRoute.post(
-    '/',
-    SoilTypeController.saveSoilTypeAsync
-)
+  "/",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  SoilTypeController.saveSoilTypeAsync
+);
 
 soilTypeRoute.get(
-    '/list',
-    SoilTypeController.getSoilTypeListAsync
-)
+  "/list",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  SoilTypeController.getSoilTypeListAsync
+);
 
-export default soilTypeRoute
+export default soilTypeRoute;
