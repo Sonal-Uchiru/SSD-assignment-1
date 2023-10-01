@@ -1,14 +1,32 @@
-import { Router } from 'express'
-import NotificationController from '../../controllers/protected/NotificationController'
+import { Router } from "express";
+import NotificationController from "../../controllers/protected/NotificationController";
+import { AuthorizedUserRoles } from "../../middlewares/Authorization";
+import { UserRoles } from "../../types/enum/user/UserRoles";
 
-const notificationRoute = Router()
+const notificationRoute = Router();
 
-notificationRoute.get('/list', NotificationController.getNotificationListByUserAsync)
+notificationRoute.get(
+  "/list",
+  AuthorizedUserRoles([UserRoles.Farmer]),
+  NotificationController.getNotificationListByUserAsync
+);
 
-notificationRoute.get('/:id', NotificationController.getNotificationAsync)
+notificationRoute.get(
+  "/:id",
+  AuthorizedUserRoles([UserRoles.Farmer]),
+  NotificationController.getNotificationAsync
+);
 
-notificationRoute.delete('/', NotificationController.deleteNotificationsAsync)
+notificationRoute.delete(
+  "/",
+  AuthorizedUserRoles([UserRoles.Farmer]),
+  NotificationController.deleteNotificationsAsync
+);
 
-notificationRoute.patch('/:id', NotificationController.updatePreviewStateAsync)
+notificationRoute.patch(
+  "/:id",
+  AuthorizedUserRoles([UserRoles.Farmer]),
+  NotificationController.updatePreviewStateAsync
+);
 
-export default notificationRoute
+export default notificationRoute;

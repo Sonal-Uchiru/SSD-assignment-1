@@ -1,20 +1,24 @@
-import emailjs from 'emailjs-com'
-import { EmailContent } from '../../types/email/EmailContent'
+import emailjs from "emailjs-com";
+import { EmailContent } from "../../types/email/EmailContent";
+
+const serviceId: string = process.env.EMAIL_JS_SERVICE_ID ?? "";
+const templateId: string = process.env.EMAIL_JS_TEMPLATE_ID ?? "";
+const token = process.env.EMAIL_JS_TOKEN ?? "";
 
 export const sendEmailAsync = (emailContent: EmailContent): Promise<void> => {
-    return new Promise((resolve, reject) => {
-        emailjs
-            .send(
-                'service_d2vcq28', //your service id
-                'template_pcwlvj6', // template id
-                emailContent as any, //
-                '_RHTc3M-d2e4v8VNt' //
-            )
-            .then((result: any) => {
-                resolve(result)
-            })
-            .catch((err) => {
-                reject(err)
-            })
-    })
-}
+  return new Promise((resolve, reject) => {
+    emailjs
+      .send(
+        serviceId, //your service id
+        templateId, // template id
+        emailContent as any,
+        token // token
+      )
+      .then((result: any) => {
+        resolve(result);
+      })
+      .catch((err) => {
+        reject(err);
+      });
+  });
+};

@@ -1,16 +1,38 @@
-import { Router } from 'express'
-import UserController from '../../controllers/protected/UserController'
+import { Router } from "express";
+import UserController from "../../controllers/protected/UserController";
+import { AuthorizedUserRoles } from "../../middlewares/Authorization";
+import { UserRoles } from "../../types/enum/user/UserRoles";
 
-const userRoute = Router()
+const userRoute = Router();
 
-userRoute.get('/', UserController.getUserAsync)
+userRoute.get(
+  "/",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  UserController.getUserAsync
+);
 
-userRoute.get('/list', UserController.getUserListAsync)
+userRoute.get(
+  "/list",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  UserController.getUserListAsync
+);
 
-userRoute.put('/', UserController.updateUserAsync)
+userRoute.put(
+  "/",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  UserController.updateUserAsync
+);
 
-userRoute.delete('/', UserController.deleteUserAsync)
+userRoute.delete(
+  "/",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  UserController.deleteUserAsync
+);
 
-userRoute.patch('/changePassword', UserController.changePasswordUserAsync)
+userRoute.patch(
+  "/changePassword",
+  AuthorizedUserRoles([UserRoles.Officer, UserRoles.Farmer]),
+  UserController.changePasswordUserAsync
+);
 
-export default userRoute
+export default userRoute;
